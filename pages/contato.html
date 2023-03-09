@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html lang="pt-br"></html>
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> <!-- para caracteres especiais-->
+
+        <title>Marcos site</title>
+
+        <meta name="description" content="Landing page pessoal do dev Marcos"> <!-- serve para o gogole identificar melhor a finalidade do site-->
+        <meta name="keywords" content="site, pessoal, lading, portfolio, curriculo, Marcos">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- PARA FORMA RESPONSIVA NO MOBILE-->
+
+        <link rel="shortcut icon" href="./../assets/favicon.ico" type="image/x-icon"> <!-- adicionar icone na aba da pagina -->
+
+        <link rel="stylesheet" href="./../css/style.css"> <!-- pegar o css da pasta anterior-->
+        <link rel="stylesheet" href="./../css/portfolio.css">
+        <link rel="stylesheet" href="./../css/contato.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+        <!-- ../ volta 1 pasta e o ./ entra em uma -->
+
+    </head>
+    <body>
+        <header> 
+            <img src="./../assets/marcos-avatar.webp" alt="Foto de Marcos">
+            <h1>Marcos Oliveira</h1>
+            <h3>Dev software</h3>
+
+        </header>
+
+        <nav>
+            <ul>
+                
+                <li class="button"><a href="../index.html">CURRICULO</a></li>
+                <li class="button"><a href="portfolio.html">PORTFOLIO</a></li> <!-- boa pratirca colocar a referencia na # pra não recarregar-->
+                <li class="button"><a href="contato.html">CONTATO</a></li>
+                
+            </ul>
+        </nav>
+
+        <main>
+
+            <form action="">
+
+                <fieldset>
+                    <label for="inpout-name">Nome</label>
+                    <input type="text" name="input-name" id="input-name">
+                </fieldset>
+
+                <fieldset>
+
+                    <label for="input-email">E-mail</label>
+                    <input type="email" name="input-email" id="input-email">
+
+                </fieldset>
+
+                <fieldset>
+
+                    <label for="input-tel">Telefone</label>
+                    <input type="tel" name="input-tel" id="input-tel">
+
+                </fieldset>
+
+
+                <fieldset>
+
+                    <label for="input-msg">Mensagem</label>
+                    <textarea name="input-msg" id="input-msg" cols="30" rows="10"></textarea>
+
+                </fieldset>
+
+                <center>
+                    <input type="submit" value="ENVIAR" class="button" >
+                </center>
+
+
+            </form>
+
+        </main>
+
+
+        <footer> Desenvolvido com amor, marcao sz </footer>
+
+
+
+    </body>
+
+</html>
