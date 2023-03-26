@@ -88,6 +88,12 @@ footer {
 }
 
 
+.invalid {
+    border: 2px solid red;
+}
+
+
+
 /* definir até quando vai */
 
 @media only screen and (max-width: 600px) {
